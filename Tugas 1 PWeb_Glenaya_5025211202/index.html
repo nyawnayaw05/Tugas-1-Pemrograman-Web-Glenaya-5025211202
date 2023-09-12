@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Naya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+    <a href="/tugas1.html"class="logo">nyaws</a>
+    <ul>
+        <li><a href="/tugas1.html" class="active">Home</a></li>
+        <li><a href="/tugas1/profile.html">Profile</a></li>
+        <li><a href="/tugas1/hometown.html">Hometown</a></li>
+        <li><a href="/tugas1/food.html">Food</a></li>
+        <li><a href="/tugas1/tourist.html">Tourist</a></li>
+    </ul>
+</header>
+<h2>Hi! Welcome</h2>
+<h3>To Naya's Website</h3>
+<h4>This Website is About Me and My Hometown</h4>
+<body>
+    <div class="container">
+        <span class="text first-text"> <br> <br> <br> <br> <br> <br> I'm a</a></span>
+        <span class="text sec-text"></span>
+    </div>
+    <script>
+        const text = document.querySelector(".sec-text");
+
+        const textload = () => {
+            setTimeout (() =>{
+                text.textContent = "Student";
+            }, 0);
+            setTimeout (() =>{
+                text.textContent = "Daughter";
+            }, 4000);
+
+        }
+
+        textload();
+        setInterval(textload, 12000);
+    </script>
+</body>
+</html>
