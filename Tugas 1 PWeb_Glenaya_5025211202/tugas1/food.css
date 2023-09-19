@@ -7,7 +7,7 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(#2b1055, #7597de);
+    background: linear-gradient(#2255c3,#2457c5);
 }
 
 header{
@@ -83,7 +83,9 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
+
 
 .pic2 {
     position: absolute;
@@ -173,56 +175,3 @@ img {
     height: 200px;
     object-fit: cover;
 }
-/*
-h2 ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h2 ul li{
-    list-style: none;
-    margin-left: 20px;
-
-}
-
-h2 ul li a {
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    border-radius: 20px;
-}
-
-h2 ul li a:hover
-h2 ul li a.active
-{
-    background: #fff;
-    color: #2b1055;
-} */
-
-/* #text {
-    position: absolute;
-    color: #fff;
-    white-space: nowrap;
-    font-size: 7.5vw;
-    font-size: 1.5em;
-    z-index: 9;
-} */
-/* .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-.card{
-    width: 400px;
-    height: 200px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    margin: 10px 15px;
- }*/ 
-
-

@@ -7,7 +7,7 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(#2b1055, #7597de);
+    background: linear-gradient(#103c9b,#2f66de);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,7 +132,7 @@ h4{
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(#5760A7, #5A63A9);
+    background: linear-gradient(#2255c3,#2457c5);
     border-left: 2px solid #fff;
     animation: animate 4s steps(12) infinite;
 }
